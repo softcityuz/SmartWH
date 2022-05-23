@@ -39,7 +39,7 @@ function Header() {
                   Kirish
                 </a>
               </li>
-              <li>
+              <li className="change_lang">
                 <select>
                   <option value="uz">UZ</option>
                   <option value="uz">RU</option>

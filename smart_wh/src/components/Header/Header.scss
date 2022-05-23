@@ -6,6 +6,7 @@
   background: rgba(0, 9, 56, 0.8);
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 10px 0;
+  backdrop-filter: blur(10px);
   .wrapper {
     display: flex;
     align-items: center;
@@ -43,6 +44,20 @@
               background: #fff;
               margin-top: 3px;
             }
+          }
+        }
+      }
+      svg {
+        margin-right: 5px;
+      }
+      .change_lang {
+        margin-top: -5px;
+        select {
+          background-color: transparent;
+          padding: 5px;
+          color: #fff;
+          option {
+            background-color: #000938;
           }
         }
       }
