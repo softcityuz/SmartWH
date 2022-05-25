@@ -68,6 +68,15 @@
         border: 0px;
       }
     }
+    .active {
+      button {
+        background-color: #000938;
+        color: #fff;
+      }
+    }
+    .notActive {
+      background: #fff;
+    }
 
     .active_changer {
       button {
@@ -81,11 +90,19 @@
       }
     }
   }
+  .active {
+    display: grid !important;
+  }
+  .null {
+    display: none;
+  }
+
   .wrapper {
-    display: grid;
+    display: none;
     grid-template-columns: 33% 33% 33%;
     padding: 0 80px;
     .col {
+      cursor: pointer;
       margin: 40px 0;
       width: 100%;
       position: relative;
@@ -100,7 +117,13 @@
         }
         .main {
           text-align: center;
+          &:hover {
+            img {
+              transform: scale(1.1);
+            }
+          }
           img {
+            transition: 0.3s ease-in-out;
             width: 50px;
             height: 50px;
             margin: 10px 0;
@@ -109,4 +132,7 @@
       }
     }
   }
+  // .noactive {
+  //   display: grid;
+  // }
 }
