@@ -10,11 +10,21 @@
       display: flex;
       width: 95%;
       border: 1px solid #fff;
+      animation: white_border 3s ease-in-out infinite ;
       padding: 8px;
+      &:hover{
+        a{
+          font-weight: 600;
+          background-color: #fff;
+          color: #000938 !important;
+          transform: skewY(360deg) !important;
+        }
+      }
       .col_img {
         img {
           width: 290px;
           height: 270px;
+          border: 1px solid rgba(255, 255, 255, 0.486);
         }
       }
       .col_text {
@@ -30,12 +40,22 @@
           color: #fff;
         }
         a {
+          transition: 0.2s ease;
           border: 1px solid #fff;
           padding: 8px 30px;
           text-decoration: none;
           color: #fff;
+          // animation: back_animate 2s ease infinite;
         }
       }
     }
   }
 }
+// @keyframes white_border {
+//   from{
+//     border: 1px solid rgba(255, 255, 255, 0.384);
+//   }
+//   to{
+//     border: 1px solid #fff;
+//   }
+// }
