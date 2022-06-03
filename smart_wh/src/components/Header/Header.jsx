@@ -2,42 +2,73 @@ import React from "react";
 import logo from "../../assets/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserTie } from "@fortawesome/free-solid-svg-icons";
+import { NavLink } from "react-router-dom";
 import "./Header.scss";
 function Header() {
+  let activeStyle = {
+    textDecoration: "underline",
+  };
+
+  let activeClassName = "underline";
   return (
     <div className="Header">
       <div className="mycontainer">
         <div className="wrapper">
           <div className="leftbox">
-            <a href="/">
+            <NavLink to="/">
               <img src={logo} alt="logo" />
-            </a>
+            </NavLink>
           </div>
           <div className="rightbox">
             <ul>
               <li className="home_link">
-                <a href="/">Asosiy</a>
+                <NavLink
+                  to="/"
+                  style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                >
+                  Asosiy
+                </NavLink>
               </li>
               <li>
-                <a href="/opportunity">Imkoniyatlar</a>
+                <NavLink
+                  to="/chances"
+                  style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                >
+                  Imkoniyatlar
+                </NavLink>
               </li>
               <li>
-                <a href="/opportunity">Sharhlar</a>
+                <NavLink
+                  to="/comments"
+                  style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                >
+                  Sharhlar
+                </NavLink>
               </li>
               <li>
-                <a href="/opportunity">Yangiliklar</a>
+                <NavLink
+                  to="/news"
+                  style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                >
+                  Yangiliklar
+                </NavLink>
               </li>
               <li>
-                <a href="/opportunity">Aloqa</a>
+                <NavLink
+                  to="/contact"
+                  style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                >
+                  Aloqa
+                </NavLink>
               </li>
               <li>
-                <a href="/signin">Ro'yxatdan o'tish</a>
+                <NavLink to="/sign-in">Ro'yxatdan o'tish</NavLink>
               </li>
               <li>
-                <a href="login">
+                <NavLink to="/login">
                   <FontAwesomeIcon icon={faUserTie}></FontAwesomeIcon>
                   Kirish
-                </a>
+                </NavLink>
               </li>
               <li className="change_lang">
                 <select>

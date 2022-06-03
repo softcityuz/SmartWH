@@ -1,0 +1,23 @@
+.Main {
+  .wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../../assets/main_back.png");
+    .content {
+      width: 700px;
+      margin: 0 auto;
+      text-align: center;
+      h1 {
+        font-size: 40px;
+        color: #fff;
+        margin-bottom: 50px;
+        font-weight: 800;
+      }
+      h3 {
+        color: #fff;
+      }
+    }
+  }
+}
