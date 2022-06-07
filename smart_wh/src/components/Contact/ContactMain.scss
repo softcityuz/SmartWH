@@ -1,14 +1,16 @@
-.Main {
+.ContactMain {
   height: 100vh;
-  background: url("../../assets/main_back.png");
+  background: url("../../assets/contact.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   .wrapper {
-    background: #0009389c;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #0009389c;
+    width: 100%;
+    height: 100%;
     .content {
       width: 700px;
       margin: 0 auto;

@@ -10,18 +10,24 @@
       display: flex;
       width: 95%;
       border: 1px solid #fff;
-      animation: white_border 3s ease-in-out infinite ;
+      animation: white_border 3s ease-in-out infinite;
       padding: 8px;
-      &:hover{
-        a{
+      overflow: hidden;
+      &:hover {
+        cursor: pointer;
+        a {
           font-weight: 600;
           background-color: #fff;
           color: #000938 !important;
           transform: skewY(360deg) !important;
         }
+        img {
+          transform: scale(1.05);
+        }
       }
       .col_img {
         img {
+          transition: 0.3s ease;
           width: 290px;
           height: 270px;
           border: 1px solid rgba(255, 255, 255, 0.486);
