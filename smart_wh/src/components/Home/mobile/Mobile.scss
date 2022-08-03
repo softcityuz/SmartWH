@@ -1,0 +1,158 @@
+.mobile-container {
+    width: 100%;
+    margin: 0;
+    height: 1101rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+    .mobile-dark {
+        width: 55%;
+        min-height: 100%;
+        background-color: #000938;
+        border-radius: 0 0 550rem;
+    }
+    .mobile-light {
+        width: 45%;
+        height: 100%;
+        border-radius:550rem 0 0 ;
+        z-index: 2;
+        background-color: #fff;
+    }
+    .mobile-absolute {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 45%;
+        height: 50%;
+        background-color: #000938;
+        z-index: 1;
+    }
+    .mobile-content {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 3;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+        .content-left {
+            width: 70%;
+            // height: 100%;
+            padding: 136rem 87rem;
+            box-sizing: border-box;
+            h2 {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 70rem;
+                line-height: 85rem;
+                color: #FFFFFF;
+                margin: 0;
+                padding: 0;
+                text-align: left;
+                span {
+                    color: #FEE2A5;
+                }
+            }
+            p {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 25rem;
+                line-height: 30rem;
+                text-align: left;
+                color: #FFFFFF;
+                margin: 0;
+                padding: 0;
+                margin-top: 42rem;
+            }
+            .content-left-buttons {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                margin-top: 79rem;
+                button {
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20rem;
+                    line-height: 30rem;
+                    color: #141E2F;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 10rem;
+                    cursor: pointer;
+                    width: 248.68rem;
+                    height: 81rem;
+                    background: #FFFFFF;
+                    box-shadow: 0rem 7rem 10rem rgba(0, 0, 0, 0.3);
+                    border-radius: 12rem;
+                    border: none;
+                    img {
+                        width: 20rem;
+                        height: 20rem;
+                        margin-right: 31rem;
+                    }
+                    &:hover {
+                        background-color: rgba(0, 0, 0, 0.3);  
+                        box-shadow: 0rem 7rem 10rem rgba(0, 0, 0, 0.3);
+                        color: #fff;
+                    }
+                }
+                
+            }
+        }
+        .content-right {
+            width: 30%;
+            height: 100%;
+            h1 {
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 150rem;
+                line-height: 225rem;
+                /* identical to box height */
+                color: #141E2F;
+                opacity: 0.2;
+                position: absolute;
+                top: 76rem;
+                right: 102rem;
+            }
+            img {
+                width: 364rem;
+                height: 651rem;
+                position: absolute;
+                top: 269rem;
+                right: 268rem;
+
+            }
+            h2 {
+                position: absolute;
+                width: 891rem;
+                height: 420rem;
+                right: 20rem;
+                top: 690rem;
+
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 130rem;
+                line-height: 210rem;
+
+                color: #141E2F;
+                text-align: left;
+                opacity: 0.2;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}

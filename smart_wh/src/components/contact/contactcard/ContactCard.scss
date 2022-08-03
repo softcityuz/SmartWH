@@ -1,0 +1,37 @@
+.contact-card {
+    width: 29%;
+    height: 707rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &-icon {
+        width: 100rem;
+        height: 108rem;
+        margin-bottom: 63rem;
+    }
+    &-title {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 50rem;
+        line-height: 30rem;
+        /* identical to box height, or 60% */
+        text-align: center;
+        color: #000938;
+        margin-bottom: 40rem;
+    }
+    &-info {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30rem;
+        line-height: 30rem;
+        /* identical to box height, or 100% */
+
+        text-align: center;
+
+        color: #000938;
+        margin-bottom: 10rem;
+    }
+}

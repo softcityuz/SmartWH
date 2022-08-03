@@ -1,0 +1,12 @@
+.wrappped-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    &-separator {
+        width: 3rem;
+        height: 370rem;
+        background-color: #000938;
+    }
+}

@@ -1,0 +1,37 @@
+fieldset {
+max-width: 449rem;
+height: 290rem;
+border: 3rem solid #000938;
+    legend {
+    color: #000938;
+    padding: 0rem 15rem ;
+    font-size: 40rem;
+        font-weight: 600;
+        font-family: 'Montserrat';
+        color: #000938;
+    margin-left: -100rem;
+        b {
+        font-size: 40rem;
+        font-weight: 600;
+        font-family: 'Montserrat';
+        color: #000938;
+        }
+    }
+    .content-item-content {
+        img {
+            width: 100rem;
+            height: 100rem;
+        }
+        p {
+            font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20rem;
+line-height: 24rem;
+text-align: center;
+
+color: #000938;
+margin-top: 20rem;
+        }
+    }
+}

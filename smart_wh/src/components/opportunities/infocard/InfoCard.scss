@@ -1,0 +1,84 @@
+.info-card {
+    width: 100%;
+    margin: 0;
+    padding: 0 87rem 90rem 87rem;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+    &-description {
+        width: 1110rem;
+        text-align: left;
+        h1 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 40rem;
+            line-height: 48rem;
+
+            color: #000938;
+
+            margin-top: 51rem;
+        }
+        div {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 51rem;
+            .item-icon {
+                transform: rotate(45deg);
+                width: 20rem;
+                height: 20rem;
+                margin-right: 23rem;
+            }
+            p {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 25rem;
+                line-height: 30rem;
+                color: rgba(0, 0, 0, 0.7);
+            }
+        }
+
+    }
+    &-title {
+        width: 636rem;
+        height: 1028rem;
+        background-image: url('../../../assets/images/info-cad-bg.png');
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        .absolute {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 0;
+            height: 0;
+            border: 100rem solid;
+            border-color: transparent #fff #fff transparent;
+            z-index: 2;
+        }
+        h1 {
+            width: 406rem;
+            height: 242rem;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 100rem;
+            line-height: 121rem;
+            color: #FFFFFF;
+            margin-bottom: 102rem;
+        }
+        img {
+            width: 530rem;
+            height: 407rem;
+            object-fit: cover;
+        }
+    }
+}

@@ -1,0 +1,97 @@
+.footer {
+    background-color: #000938;
+    &-content {
+        padding: 70rem 170rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        height: 473rem;
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            .content-item {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                .icon {
+                    width: 64rem;
+                    height: 64rem;
+                    color: #FFFFFF;
+                    margin-right: 25rem;
+                }
+                img {
+                    width: 64rem;
+                    height: 64rem;
+                }
+                div {
+                    h2 {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 25rem;
+                        line-height: 29rem;
+                        color: #FFFFFF;
+                        margin: 0;
+                        padding: 0;
+                    }
+                    p {
+                        font-family: 'Roboto';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 15rem;
+                        line-height: 18rem;
+                        /* identical to box height */
+                        color: #FFFFFF;
+                        margin: 0;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+        
+    }
+    hr {
+        width: 100%;
+        border: 0;
+        height: 4rem;
+        background-color: #FFFFFF;
+        margin: 0;
+        padding: 0;
+    }
+    .copyright {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 22rem 170rem;
+        p {
+            font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 25rem;
+line-height: 29rem;
+
+color: #FFFFFF;
+
+        }
+        div {
+            img {
+                 width: 90rem;
+height: 55rem;
+            }
+        }
+    }
+}
+
+a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25rem;
+    line-height: 29rem;
+    text-decoration: none;
+    color: #FFFFFF;
+}

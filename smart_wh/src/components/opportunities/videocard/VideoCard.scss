@@ -1,0 +1,12 @@
+.video-card {
+   width: 723rem;
+    // height: 606rem; 
+    border: 10rem solid #000938;
+    padding: 5rem
+
+}
+
+.active {
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+}

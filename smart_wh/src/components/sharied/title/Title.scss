@@ -1,0 +1,25 @@
+.container {
+    padding: 7rem 65rem;
+    display: flex;
+    justify-content: flex-start;
+    border-left: 10rem solid #000938;
+    .title {
+        font-size: 40rem;
+        font-weight: 600;
+        font-family: 'Montserrat';
+        color: #000938;
+    }
+}
+
+.container-light {
+    padding: 7rem 65rem;
+    display: flex;
+    justify-content: flex-start;
+    border-left: 10rem solid #fff;
+    .title {
+        font-size: 40rem;
+        font-weight: 600;
+        font-family: 'Montserrat';
+        color: #fff;
+    }
+}

@@ -1,0 +1,146 @@
+.comment-card {
+    width: 100%;
+    height: 834rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40.5rem 86rem 40.5rem 86rem;
+    box-sizing: border-box;
+    &-description {
+        background-color: #fff;
+        height: 753rem;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .absolute {
+            width: 256rem;
+            height: 100%;
+            border: 4rem;
+            border-style: solid;
+            border-color: #000938 transparent #000938 #000938;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .absolute-reverse {
+            width: 256rem;
+            height: 100%;
+            border: 4rem;
+            border-style: solid;
+            border-color: #000938 #000938 #000938 transparent;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .swiper-wrapper {
+            width: 90%;
+            height: 380rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 160rem;
+            .comment-card-swiper {
+                width: 100%;
+                align-items: center;
+                justify-content: center;
+                margin: 0;
+            }
+        }
+        p {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 25rem;
+            line-height: 30rem;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.5);
+            width: 828rem;
+            margin-top: 86rem;
+            
+        }
+    }
+    &-title {
+        width: 30%;
+        height: 753rem;
+        background-color: #000938;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 62rem 36rem 34rem 36rem;
+        box-sizing: border-box;
+        div {
+            
+            h3 {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40rem;
+                line-height: 49rem;
+                /* identical to box height */
+                text-align: right;
+                color: #FFFFFF;
+                margin-bottom: 14rem;
+            }
+            p {
+                font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 26rem;
+                line-height: 32rem;
+                /* identical to box height */
+                text-align: right;
+                color: #FFFFFF;
+            }
+        }
+          .row {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                div {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-between;
+                    .icon {
+                        width: 35rem;
+                        height: 35rem;
+                        margin-right: 19rem;
+                        color: #fff;
+                    }
+                    b {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 30rem;
+                        line-height: 37rem;
+                        /* identical to box height */
+
+                        text-align: center;
+
+                        color: #FFFFFF;
+                    }
+                }
+            }
+    }
+    .comment-card-img {
+        position: absolute;
+        width: 269rem;
+        height: 269rem;
+        border-radius: 50%;
+        border: 10rem solid #fff;
+        
+        padding: 0%;
+        
+    }
+}
+
+
+
