@@ -1,0 +1,44 @@
+.crm-news-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 50rem 50rem 33rem 50rem;
+    border-bottom: 4rem solid rgba(77, 83, 116, 0.3);
+    box-sizing: border-box;
+    &__icon {
+        width: 44rem;
+        height: 44rem;
+        color: rgba(0, 9, 56, 1);
+    }
+    &__body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        // align-items: center;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 37rem;
+        p {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25rem;
+            line-height: 30rem;
+            color: #000938;
+            text-align: left;
+            margin-bottom: 33rem;
+        }
+        b {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 22rem;
+            line-height: 27rem;
+            /* identical to box height */
+            color: rgba(0, 9, 56, 0.7);
+            text-align: left;
+        }
+    }
+}

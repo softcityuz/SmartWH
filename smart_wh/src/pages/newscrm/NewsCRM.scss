@@ -1,0 +1,16 @@
+.news-crm {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+    padding: 74rem 87rem;
+    &__title {
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40rem;
+        line-height: 49rem;
+        /* identical to box height */
+        color: #000938;
+        text-align: left;
+    }
+}

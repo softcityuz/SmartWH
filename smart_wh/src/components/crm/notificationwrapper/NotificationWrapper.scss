@@ -1,0 +1,37 @@
+.notification-wrapper {
+    width: 1747rem;
+    background: #ffffff;
+    box-shadow: 0rem 0rem 8rem #0077ff;
+    border-radius: 10rem;
+    margin-top: 74rem;
+    &__header {
+        width: 100%;
+        padding: 42rem 0rem 50rem 73rem;
+        border-bottom: 4rem solid rgba(77, 83, 116, 0.3);
+        box-sizing: border-box;
+        h1 {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 40rem;
+            line-height: 49rem;
+            /* identical to box height */
+            text-align: left;
+            color: #000938;
+        }
+    }
+    &__body {
+        h3 {
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25rem;
+            line-height: 30rem;
+            text-align: left !important;
+            color: rgba(0, 9, 56, 0.7);
+            padding-top: 50rem;
+            padding-left: 73rem;
+            padding-bottom: 60rem !important;
+        }
+    }
+}

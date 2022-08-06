@@ -49,7 +49,7 @@ function UsersComment() {
         <Swiper
         pagination={pagination}
         modules={[Pagination]}
-        className="mySwiper"
+        className="my-swiper"
         slidesPerView={2}
         spaceBetween={10}
         centeredSlides={true}
