@@ -6,7 +6,6 @@ import "./Header.scss";
 import Modal from "react-modal";
 import logo from "./logo.svg";
 import SignInForm from "../signinform/SignInForm";
-import SignUp from "../../pages/signup/SignUp";
 import SignUpForm from "../signupform/SignUpForm";
 
 const customStyles = {

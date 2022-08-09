@@ -1,7 +1,6 @@
 import React from "react";
 import "./SignInForm.scss";
 import { RiCloseLine } from "react-icons/ri";
-import { AiOutlinePlus } from "react-icons/ai";
 import { Link, useNavigate } from "react-router-dom";
 
 interface SignInFormProps {

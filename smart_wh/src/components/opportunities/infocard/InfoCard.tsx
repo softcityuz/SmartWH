@@ -43,7 +43,7 @@ function InfoCard({isReverse}:{isReverse?: boolean}) {
         </div>
         <div className='info-card-title'>
             <h1>Nazorat va tahlil</h1>
-            <img src={require('../../../assets/images/diagram-1.png')} alt='info-card-image' />
+            <img src={require('../../../assets/images/diagram-1.png')} alt='info-card-image1' />
             <div className='absolute'></div>
         </div>
     </div>

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Title from '../../sharied/title/Title'
 import './VedioCarousel.scss'
 import { Pagination } from "swiper";
 import "swiper/css";
@@ -12,6 +11,7 @@ function VedioCarousel
     clickable: true,
     // dynamicBullets: true,
     renderBullet: function (index:number, className:string) {
+    //eslint-disable-next-line no-useless-concat
       return '<div class="' + className + '">' + "</div>";
     },
   };

@@ -10,6 +10,7 @@ function UsersComment() {
     clickable: true,
     // dynamicBullets: true,
     renderBullet: function (index:number, className:string) {
+        //eslint-disable-next-line no-useless-concat
       return '<div class="' + className + '">' + "</div>";
     },
   };

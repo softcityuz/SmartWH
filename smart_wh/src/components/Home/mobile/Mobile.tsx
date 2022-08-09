@@ -19,18 +19,20 @@ function Mobile() {
                 <p>Money Transfers and Online Conversions</p>
                 <div className='content-left-buttons'>
                     <button className='button-left'>
-                        <img src={require('../../../assets/icons/play-market.png')} />
+                        <img src={require('../../../assets/icons/play-market.png')}
+                        alt="play-market"
+                        />
                         Google play
                     </button>
                     <button className='button-right'>
-                        <img src={require('../../../assets/icons/app-store.png')} />
+                        <img src={require('../../../assets/icons/app-store.png')}  alt="app-store" />
                         App store
                     </button>
                 </div>
             </div>
             <div className='content-right'>
                 <h1>MOBILE</h1>
-                <img src={require('../../../assets/images/mobile.webp')} />
+                <img src={require('../../../assets/images/mobile.webp')} alt="mobile" />
                 <h2>SMART WAREHOUSE</h2>
             </div>
         </div>

@@ -11,7 +11,7 @@ function NewsCard({isReverse} : NewsCardProps) {
         flexDirection: isReverse ? 'row-reverse' : 'row'
     }}>
         <div className={`news-card-image ${isReverse?'image-reverse':''}`}>
-            <img src={require('../../../assets/images/news-img.png')} alt='news-image' />
+            <img src={require('../../../assets/images/news-img.png')} alt='news-image1' />
         </div>
         <div className={`news-card-content ${isReverse?'content-reverse':''}`}>
             <div className='news-card-title'>
